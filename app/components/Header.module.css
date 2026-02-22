@@ -1,0 +1,35 @@
+.header {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0 16px;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg);
+}
+
+.search {
+  flex: 1;
+  display: flex;
+  gap: 8px;
+  background: var(--hover);
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
+.search input {
+  border: none;
+  background: transparent;
+  outline: none;
+  width: 100%;
+  color: var(--text);
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+}
